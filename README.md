@@ -32,6 +32,7 @@ Each pattern folder has its own `README.md` describing the scenario and how to r
 | 11 | Composite | Structural | [`structural.composite`](src/main/java/com/itgreenzone/patterns/structural/composite) |
 | 12 | Decorator | Structural | [`structural.decorator`](src/main/java/com/itgreenzone/patterns/structural/decorator) |
 | 13 | Facade | Structural | [`structural.facade`](src/main/java/com/itgreenzone/patterns/structural/facade) |
+| 14 | Flyweight | Structural | [`structural.flyweight`](src/main/java/com/itgreenzone/patterns/structural/flyweight) |
 | 24 | Strategy | Behavioral | [`behavioral.strategy`](src/main/java/com/itgreenzone/patterns/behavioral/strategy) |
 
 ## Build & test
