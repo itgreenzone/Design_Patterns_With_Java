@@ -34,6 +34,7 @@ Each pattern folder has its own `README.md` describing the scenario and how to r
 | 13 | Facade | Structural | [`structural.facade`](src/main/java/com/itgreenzone/patterns/structural/facade) |
 | 14 | Flyweight | Structural | [`structural.flyweight`](src/main/java/com/itgreenzone/patterns/structural/flyweight) |
 | 15 | Proxy | Structural | [`structural.proxy`](src/main/java/com/itgreenzone/patterns/structural/proxy) |
+| 16 | Chain of Responsibility | Behavioral | [`behavioral.chainofresponsibility`](src/main/java/com/itgreenzone/patterns/behavioral/chainofresponsibility) |
 | 24 | Strategy | Behavioral | [`behavioral.strategy`](src/main/java/com/itgreenzone/patterns/behavioral/strategy) |
 
 ## Build & test
