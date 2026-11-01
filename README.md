@@ -45,6 +45,7 @@ Each pattern folder has its own `README.md` describing the scenario and how to r
 | 24 | Strategy | Behavioral | [`behavioral.strategy`](src/main/java/com/itgreenzone/patterns/behavioral/strategy) |
 | 25 | Template Method | Behavioral | [`behavioral.templatemethod`](src/main/java/com/itgreenzone/patterns/behavioral/templatemethod) |
 | 26 | Visitor | Behavioral | [`behavioral.visitor`](src/main/java/com/itgreenzone/patterns/behavioral/visitor) |
+| 27 | Capstone: Mini Payment Platform | Capstone | [`capstone`](src/main/java/com/itgreenzone/patterns/capstone) |
 
 ## Build & test
 
