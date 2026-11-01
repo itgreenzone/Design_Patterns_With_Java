@@ -35,6 +35,7 @@ Each pattern folder has its own `README.md` describing the scenario and how to r
 | 14 | Flyweight | Structural | [`structural.flyweight`](src/main/java/com/itgreenzone/patterns/structural/flyweight) |
 | 15 | Proxy | Structural | [`structural.proxy`](src/main/java/com/itgreenzone/patterns/structural/proxy) |
 | 16 | Chain of Responsibility | Behavioral | [`behavioral.chainofresponsibility`](src/main/java/com/itgreenzone/patterns/behavioral/chainofresponsibility) |
+| 17 | Command | Behavioral | [`behavioral.command`](src/main/java/com/itgreenzone/patterns/behavioral/command) |
 | 24 | Strategy | Behavioral | [`behavioral.strategy`](src/main/java/com/itgreenzone/patterns/behavioral/strategy) |
 
 ## Build & test
