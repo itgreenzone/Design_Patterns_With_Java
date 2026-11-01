@@ -36,6 +36,7 @@ Each pattern folder has its own `README.md` describing the scenario and how to r
 | 15 | Proxy | Structural | [`structural.proxy`](src/main/java/com/itgreenzone/patterns/structural/proxy) |
 | 16 | Chain of Responsibility | Behavioral | [`behavioral.chainofresponsibility`](src/main/java/com/itgreenzone/patterns/behavioral/chainofresponsibility) |
 | 17 | Command | Behavioral | [`behavioral.command`](src/main/java/com/itgreenzone/patterns/behavioral/command) |
+| 18 | Interpreter | Behavioral | [`behavioral.interpreter`](src/main/java/com/itgreenzone/patterns/behavioral/interpreter) |
 | 24 | Strategy | Behavioral | [`behavioral.strategy`](src/main/java/com/itgreenzone/patterns/behavioral/strategy) |
 
 ## Build & test
