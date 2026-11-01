@@ -41,6 +41,7 @@ Each pattern folder has its own `README.md` describing the scenario and how to r
 | 20 | Mediator | Behavioral | [`behavioral.mediator`](src/main/java/com/itgreenzone/patterns/behavioral/mediator) |
 | 21 | Memento | Behavioral | [`behavioral.memento`](src/main/java/com/itgreenzone/patterns/behavioral/memento) |
 | 22 | Observer | Behavioral | [`behavioral.observer`](src/main/java/com/itgreenzone/patterns/behavioral/observer) |
+| 23 | State | Behavioral | [`behavioral.state`](src/main/java/com/itgreenzone/patterns/behavioral/state) |
 | 24 | Strategy | Behavioral | [`behavioral.strategy`](src/main/java/com/itgreenzone/patterns/behavioral/strategy) |
 
 ## Build & test
