@@ -16,8 +16,8 @@ import java.util.Optional;
  *     (use monthlyRate(owed, "6").negate())
  *   - format: "LOAN <number> | interest <interest> | closing <closing>"
  *   - extraSection (the HOOK) with the amortisation step:
- *     "Instalment <instalment> = interest <i> + principal <instalment - i> | remaining <owed - principal>"
- *     where i = interest.abs(), owed = closing.negate() - i ... see the test for exact numbers.
+ *     "Instalment <instalment> = interest <i> + principal <instalment - i> | remaining <closing.negate() - instalment>"
+ *     where i = figures.interest().abs(). Expected output is in TemplateMethodTest.
  * StatementGenerator must not change. Reference: ..templatemethod.solution.LoanStatement
  */
 public class LoanStatement extends StatementGenerator {
