@@ -22,6 +22,7 @@ Each pattern folder has its own `README.md` describing the scenario and how to r
 | 01 | Intro & GoF Categories | Foundations | [`foundations.intro`](src/main/java/com/itgreenzone/patterns/foundations/intro) |
 | 02 | OOP & SOLID | Foundations | [`foundations.solid`](src/main/java/com/itgreenzone/patterns/foundations/solid) |
 | 03 | Reading UML | Foundations | [`foundations.uml`](src/main/java/com/itgreenzone/patterns/foundations/uml) |
+| 04 | Singleton | Creational | [`creational.singleton`](src/main/java/com/itgreenzone/patterns/creational/singleton) |
 | 24 | Strategy | Behavioral | [`behavioral.strategy`](src/main/java/com/itgreenzone/patterns/behavioral/strategy) |
 
 ## Build & test
