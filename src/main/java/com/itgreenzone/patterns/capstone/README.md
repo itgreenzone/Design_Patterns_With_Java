@@ -13,9 +13,9 @@ This lesson pulls the course together:
 ```mermaid
 flowchart LR
     Client([Client]) --> F["CheckoutFacade<br/>FACADE L13"]
-    F --> RF["RegionFactory<br/>ABSTRACT FACTORY L03"]
+    F --> RF["RegionFactory<br/>ABSTRACT FACTORY L06"]
     F --> PM["PaymentMethod<br/>STRATEGY L24"]
-    F --> AL["AuditLog + ChargeCommand<br/>COMMAND L18"]
+    F --> AL["AuditLog + ChargeCommand<br/>COMMAND L17"]
     AL --> LP["LoggingProcessor<br/>DECORATOR L12"]
     LP --> FP["FraudCheckProcessor<br/>DECORATOR L12"]
     FP --> GW["SimulatedGateway<br/>from RegionFactory"]
@@ -28,14 +28,14 @@ flowchart LR
 | Class (package `capstone.…`) | Pattern | Role | Lesson |
 |------------------------------|---------|------|--------|
 | `checkout.CheckoutFacade` | Facade | Single entry point for clients | L13 |
-| `region.RegionFactory`, `SingaporeRegion`, `SriLankaRegion` | Abstract Factory | Family of regional components: currency, tax, gateway | L03 |
+| `region.RegionFactory`, `SingaporeRegion`, `SriLankaRegion` | Abstract Factory | Family of regional components: currency, tax, gateway | L06 |
 | `region.RegionFactory.forCode(...)` | Factory Method (static) | Picks the concrete factory | L05 |
 | `payment.PaymentMethod`, `CardPayment`, `PayPalPayment`, `PayNowPayment` | Strategy | Interchangeable fee algorithms | L24 |
 | `processor.PaymentProcessor`, `SimulatedGateway` | (Decorator component) | The gateway being wrapped | L12 |
 | `processor.LoggingProcessor`, `FraudCheckProcessor` | Decorator | Logging and fraud check around the gateway | L12 |
 | `order.OrderStatus`, `PaymentOrder` | State (enum variant) | NEW → PAID → SHIPPED → DELIVERED, CANCELLED | L23 |
 | `order.OrderListener`, `notify.EmailNotifier`, `SmsNotifier` | Observer | Notifications on every state change | L22 |
-| `audit.AuditableCommand`, `ChargeCommand`, `AuditLog` | Command | Audit trail; undo = refund | L18 |
+| `audit.AuditableCommand`, `ChargeCommand`, `AuditLog` | Command | Audit trail; undo = refund | L17 |
 
 ## How to run
 

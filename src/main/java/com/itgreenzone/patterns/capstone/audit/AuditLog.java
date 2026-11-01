@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
-/** INVOKER (L18): runs commands, keeps an audit trail and an undo stack. */
+/** INVOKER (L17): runs commands, keeps an audit trail and an undo stack. */
 public class AuditLog {
 
     private final Deque<AuditableCommand> undoStack = new ArrayDeque<>();

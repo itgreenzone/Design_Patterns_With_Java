@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 
 /**
- * ABSTRACT FACTORY (L03): creates a matching family of regional components:
+ * ABSTRACT FACTORY (L06): creates a matching family of regional components:
  * currency, tax policy and payment gateway. forCode() is a static FACTORY METHOD.
  */
 public interface RegionFactory {
