@@ -17,11 +17,10 @@ Each pattern folder has its own `README.md` describing the scenario and how to r
 
 ## Lessons
 
-| #  | Pattern  | Category   | Package |
-|----|----------|------------|---------|
+| #  | Lesson | Category | Package |
+|----|--------|----------|---------|
+| 01 | Intro & GoF Categories | Foundations | [`foundations.intro`](src/main/java/com/itgreenzone/patterns/foundations/intro) |
 | 24 | Strategy | Behavioral | [`behavioral.strategy`](src/main/java/com/itgreenzone/patterns/behavioral/strategy) |
-
-More lessons are added as the course progresses.
 
 ## Build & test
 
