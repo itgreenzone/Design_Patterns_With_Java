@@ -26,6 +26,7 @@ Each pattern folder has its own `README.md` describing the scenario and how to r
 | 05 | Factory Method | Creational | [`creational.factorymethod`](src/main/java/com/itgreenzone/patterns/creational/factorymethod) |
 | 06 | Abstract Factory | Creational | [`creational.abstractfactory`](src/main/java/com/itgreenzone/patterns/creational/abstractfactory) |
 | 07 | Builder | Creational | [`creational.builder`](src/main/java/com/itgreenzone/patterns/creational/builder) |
+| 08 | Prototype | Creational | [`creational.prototype`](src/main/java/com/itgreenzone/patterns/creational/prototype) |
 | 24 | Strategy | Behavioral | [`behavioral.strategy`](src/main/java/com/itgreenzone/patterns/behavioral/strategy) |
 
 ## Build & test
