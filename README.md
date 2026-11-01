@@ -38,6 +38,7 @@ Each pattern folder has its own `README.md` describing the scenario and how to r
 | 17 | Command | Behavioral | [`behavioral.command`](src/main/java/com/itgreenzone/patterns/behavioral/command) |
 | 18 | Interpreter | Behavioral | [`behavioral.interpreter`](src/main/java/com/itgreenzone/patterns/behavioral/interpreter) |
 | 19 | Iterator | Behavioral | [`behavioral.iterator`](src/main/java/com/itgreenzone/patterns/behavioral/iterator) |
+| 20 | Mediator | Behavioral | [`behavioral.mediator`](src/main/java/com/itgreenzone/patterns/behavioral/mediator) |
 | 24 | Strategy | Behavioral | [`behavioral.strategy`](src/main/java/com/itgreenzone/patterns/behavioral/strategy) |
 
 ## Build & test
