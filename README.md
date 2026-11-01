@@ -30,6 +30,7 @@ Each pattern folder has its own `README.md` describing the scenario and how to r
 | 09 | Adapter | Structural | [`structural.adapter`](src/main/java/com/itgreenzone/patterns/structural/adapter) |
 | 10 | Bridge | Structural | [`structural.bridge`](src/main/java/com/itgreenzone/patterns/structural/bridge) |
 | 11 | Composite | Structural | [`structural.composite`](src/main/java/com/itgreenzone/patterns/structural/composite) |
+| 12 | Decorator | Structural | [`structural.decorator`](src/main/java/com/itgreenzone/patterns/structural/decorator) |
 | 24 | Strategy | Behavioral | [`behavioral.strategy`](src/main/java/com/itgreenzone/patterns/behavioral/strategy) |
 
 ## Build & test
